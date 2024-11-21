@@ -1,0 +1,150 @@
+  html,body{
+    margin-left: 20px;
+margin-right: 20px;  
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para los títulos dentro del contenido */
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Reset básico para quitar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del encabezado */
+header {
+    display: flex;
+    justify-content: space-between; /* Separar el logo y el menú */
+    align-items: center; /* Centrar verticalmente */
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo para el logo */
+.logo h1 {
+    font-size: 2rem;
+}
+
+/* Estilo del menú de navegación */
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Estilos responsive - para pantallas pequeñas */
+@media (max-width: 768px) {
+    .nav ul {
+        display: none; /* Ocultar el menú por defecto en pantallas pequeñas */
+    }
+    
+    .logo h1 {
+        font-size: 1.5rem; /* Reducir tamaño del logo */
+    }
+
+    /* Botón para mostrar el menú en pantallas pequeñas */
+    .menu-toggle {
+        display: block;
+        background-color: #444;
+        border: none;
+        padding: 10px 15px;
+        font-size: 1.2rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Mostrar el menú cuando se activa */
+    .nav.active ul {
+        display: block; /* Mostrar el menú cuando la clase 'active' esté presente */
+    }
+}
+
+/* Estilos adicionales para pantallas más pequeñas */
+@media (max-width: 480px) {
+    .logo h1 {
+        font-size: 1.2rem; /* Asegurar que el logo sea pequeño en pantallas muy pequeñas */
+    }
+
+    .nav ul li {
+        margin: 10px 0; /* Espaciado vertical para los elementos del menú */
+    }
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+ /* Efecto parallax */
+.parallax {
+  background-image: url('https://via.placeholder.com/1500');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+}
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
